@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- META TAGS -->
+    <link rel="icon" type="image/x-icon" href="images/logo-ezz.png">
+    <title data-lang="meta-page-home">Ezz Vegetable Exports | From Farm to World</title>
+    <meta name="title" content="Ezz Exports company strictly specializing in Agricultural Export">
+    <meta name="description"
+        content="Ezz Exports combining deep expertise in handling fresh produce with a commitment to global quality standards.">
+    <!-- TAGS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="preloader">
+        <img src="images/logo-ezz.png" class="spinner">
+        </img>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/greenrow.png"
+                    alt="Ezz Exports company strictly specializing in Agricultural Export"></a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+            <a data-lang="nav-home" href="index.html" class="side-link">Home</a>
+            <a data-lang="nav-about" href="pages/about.html" class="side-link">About</a>
+            <a data-lang="nav-Products" href="pages/products.html" class="side-link">Products</a>
+            <a data-lang="nav-contact" href="pages/contact.html" class="side-link">Contact</a>
+
+            <div class="lang-dropdown">
+                <button class="lang-btn" id="langBtn">EN</button>
+                <div class="lang-menu" id="langMenu">
+                    <button>EN</button>
+                    <button>IT</button>
+                    <button>AR</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-icon" id="menuIcon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <!-- SIDE MENU (Mobile) -->
+    <div class="side-menu" id="sideMenu">
+        <div class="side-logo">
+            <img src="images/greenrow.png" alt="Azz Logo">
+        </div>
+
+        <a data-lang="nav-home" href="index.html">Home</a>
+        <a data-lang="nav-about" href="pages/about.html">About</a>
+        <a data-lang="nav-Products" href="pages/products.html" class="side-link">Products</a>
+        <a data-lang="nav-contact" href="pages/contact.html">Contact</a>
+
+        <div class="lang-dropdown">
+            <button class="lang-btn" id="langBtnSide">EN</button>
+            <div class="lang-menu" id="langMenuSide">
+                <button>EN</button>
+                <button>IT</button>
+                <button>AR</button>
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+
+
+    <!-- Hero Section -->
+    <section class="hero no-style-section">
+        <video autoplay muted loop playsinline>
+            <source src="images/Ezz-export3.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1 data-lang="home-hero-h1">Ezz select carefully and export with confidence</h1>
+            <p data-lang="home-hero-p">From Egyptian farms and factories to global markets, quality you can count on.</p>
+            <button onclick="window.location.href='pages/about.html'" data-lang="home-hero-button">Start Your Partnership</button>
+        </div>
+    </section>
+    <!-- Hero Section -->
+
+
+    <!-- BANERR SECTION -->
+    <section class="category-banners">
+
+        <div class="banner-item vegetables-banner">
+            <div class="banner-content">
+                <h2 data-lang="banner-veg-h2">Fresh Vegetables</h2>
+                <p data-lang="banner-veg-p">Explore our wide selection of premium Egyptian vegetables.</p>
+                <a href="pages/products.html" class="btn btn-primary" data-lang="banner-veg-btn">View Vegetables</a>
+            </div>
+        </div>
+
+        <div class="banner-item fruits-banner">
+            <div class="banner-content">
+                <h2 data-lang="banner-fruit-h2">Delicious Fruits</h2>
+                <p data-lang="banner-fruit-p">Savor the taste of our sweet and juicy Egyptian fruits.</p>
+                <a onclick="goToCategory('fruit')" class="btn btn-primary" data-lang="banner-fruit-btn">View Fruits</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- BANERR SECTION -->
+
+
+    <!-- Our Mission -->
+    <section class="mission" id="missionSection">
+        <img src="images/artichoke11.png"
+            alt="Land planted with Egyptian artichokes, ready for export by Ezz Export Company">
+        <div class="mission-content">
+            <h2 style="color: #198754;" data-lang="home-mission-h2">Our Mission</h2>
+            <p data-lang="home-mission-p-1">Ezz is an Egyptian company specializing in the export of fresh fruits and vegetables. We work in direct partnership with the best, most trusted farms in the Nile Delta and Upper Egypt, as well as the best factories specializing in high-quality manufacturing and packaging. We apply the highest quality control standards from harvest to packaging, and coordinate refrigerated transportation to ensure consistent, high-quality shipments reach all parts of the world.</p>
+
+            <hr class="mission-separator">
+
+            <p data-lang="home-mission-p-2">We may not be the largest company, but we strive to be the most committed and true to our word. We believe that trust is built through experience, so we focus on honest dealings and product quality above all else. We want to be reliable partners, not just temporary suppliers. Our goal is to build long-term relationships based on trust We believe that trust is not said, but proven—through every shipment, every communication, and every promise we keep. We strive to deliver what we are willing to carry in our name.</p>
+
+        </div>
+    </section>
+
+
+    <!-- EXPORT JOURNEY SECTION -->
+    <section class="export-journey" id="journey">
+        <h2 style="color: #198754;" data-lang="home-journey-h2">Our Export Journey</h2>
+        <p class="journey-subtitle" data-lang="home-journey-p">From the field to the world — our excellence in every stage.</p>
+
+        <div class="journey-gallery">
+            <div class="journey-item">
+                <img src="images/procss-1.png" alt="Harvesting">
+                <div class="journey-overlay">
+                    <h3 data-lang="home-journey-h3-1">Harvesting</h3>
+                    <p data-lang="home-journey-p-1">Fresh crops are handpicked with care from premium Egyptian farms.</p>
+                </div>
+            </div>
+
+            <div class="journey-item">
+                <img src="images/procss-2.jfif" alt="Sorting">
+                <div class="journey-overlay">
+                    <h3 data-lang="home-journey-h3-2">Sorting, Cleaning</h3>
+                    <p data-lang="home-journey-p-2">Products are sorted and cleaned for maximum purity and quality.</p>
+                </div>
+            </div>
+
+            <div class="journey-item">
+                <img src="images/procss-3.jfif" alt="Cold Storage">
+                <div class="journey-overlay">
+                    <h3 data-lang="home-journey-h3-3">Cold Storage</h3>
+                    <p data-lang="home-journey-p-3">Store in advanced refrigeration systems to maintain freshness and quality.<p>
+                </div>
+            </div>
+
+            <div class="journey-item">
+                <img src="images/procss-4.png" alt="Shipping">
+                <div class="journey-overlay">
+                    <h3 data-lang="home-journey-h3-4">Global Shipping</h3>
+                    <p data-lang="home-journey-p-4">Exported worldwide with full logistics support and safety assurance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EXPORT JOURNEY SECTION -->
+
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-wrapper">
+        <a href="https://wa.me/201109458208" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <div data-lang="whatsaap-button" class="whatsapp-tooltip">Contact us on WhatsApp</div>
+    </div>
+    <!-- WhatsApp Floating Button -->
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <!-- Logo -->
+            <div class="footer-brand">
+                <a href="index.html"><img class="footer-logo" src="images/greenrow.png"
+                        alt="Ezz Exports company strictly specializing in Agricultural Export"></a>
+                <p data-lang="footer-brand-p">
+                    We export premium Egyptian vegetables worldwide with quality and trust.
+                </p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-section">
+                <h3 data-lang="footer-links-h3">Explore</h3>
+                <ul>
+                    <li><a data-lang="footer-links-home" href="index.html">Home</a></li>
+                    <li><a data-lang="footer-links-about" href="pages/about.html">About Us</a></li>
+                    <li><a data-lang="footer-links-products" href="pages/products.html">Products</a></li>
+                    <li><a data-lang="footer-links-contact" href="pages/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-section">
+                <h3 data-lang="footer-contact-h3">Contact</h3>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> <span dir="ltr">+20 1109458208</span></li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="pages/contact.html">info@ezzexport.com</a></li>
+                    <li data-lang="footer-contact-adress"><i class="fa-solid fa-location-dot"></i>Kafr El Dawwar, El Beheira, Egypt</li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-section">
+                <h3 data-lang="footer-social-h3"></h3>
+                <div class="social-icons">
+                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61582088223661"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/ezzexport/?fbclid=IwY2xjawNsKVpleHRuA2FlbQIxMQBicmlkETEwN2xjblIzdTRhNmpKZ2tPAR7k_hx9Tk12NMj34rMICVpeqJavdX_0OOiGNwksXLF4QkQh6xjWh5Z9BqjD0w_aem_EiVZGu7OHrur6W-PHTp5Eg"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/ezz-export/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span data-lang="footer-bottom">© 2025 EZZ Trading Company — All Rights Reserved</span>
+            <br>
+            <span data-lang="footer-bottom-span">Designed The</span> <a data-lang="footer-bottom-a" href="" target="_blank">Global Nexus.</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
